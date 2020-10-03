@@ -28,62 +28,49 @@ public class Car {
     public void setId(long id) {
         this.id = id;
     }
-
-    public void setCompany(String company) {
-        this.company = company;
+    public void setCompany(String company){
+        this.company=company;
     }
-
-    public void setModel(String model) {
-        this.model = model;
+    public void setModel(String model){
+        this.model=model;
     }
-
-    public void setYear(int year) {
-        this.year = year;
+    public void setYear(int year){
+        this.year=year;
     }
-
-    public void setColor(String color) {
-        this.color = color;
+    public void setColor(String color){
+        this.color=color;
     }
-
-    public void setPrice(int price) {
-        this.price = price;
+    public void setPrice(int price){
+        this.price=price;
     }
-
-    public void setRegidterNumber(String registerNumber) {
-        this.registerNumber = registerNumber;
+    public void setRegidterNumber(String registerNumber){
+        this.registerNumber=registerNumber;
     }
 
 
-    public long getId() {
+    public long getId(){
         return this.id;
     }
-
-    public String getCompany() {
+    public String getCompany(){
         return this.company;
     }
-
-    public String getModel() {
+    public String getModel(){
         return this.model;
     }
-
-    public int getYear() {
+    public int getYear(){
         return this.year;
     }
-
-    public String getColor() {
+    public String getColor(){
         return this.color;
     }
-
-    public int getPrice() {
+    public int getPrice(){
         return this.price;
     }
-
-    public String getRegisterNumber() {
+    public String getRegisterNumber(){
         return this.registerNumber;
     }
-
-    public String toString() {
-        return ("Id: " + getId() + " Company: " + getCompany() + " Model: " + getModel() + " Year: " + getYear() + " Color: " +
-                getColor() + " Price: " + getPrice() + " RegisterNumber: " + getRegisterNumber());
+    public String toString(){
+        return ("Id: "+ getId()+" Company: "+ getCompany()+" Model: "+getModel()+" Year: "+getYear()+" Color: "+
+                getColor()+" Price: "+getPrice()+" RegisterNumber: "+getRegisterNumber());
     }
 }
