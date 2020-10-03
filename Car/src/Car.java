@@ -1,6 +1,6 @@
 public class Car {
 
-    //переменные
+    //
 
     private long id;
     private String company;
