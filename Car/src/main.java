@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.List;
 
-public class Main {
+public class main {
     public static void main(String[] args) {
         // public Car(long id, String company, String model, int Year, String color, int price, String registerNumber)
         Car car1 = new Car(1, "Mercedes", "S200", 2010, "silver", 50000, "AA2043AA");
